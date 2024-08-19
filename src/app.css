@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-family-sans: 'Gerstner Programm', 'sans-serif';
+	--color-background: #fbfaf3;
+	--color-foreground: #452725;
+	--color-accent: #cfcac4;
+	--color-accent-muted: #bab3b0;
+}
+
+@font-face {
+	font-family: 'Gerstner Programm';
+	font-weight: 500;
+	font-display: swap;
+	src: url('./lib/fonts/GerstnerProgramm-Medium.woff2') format('woff2');
+}
+
+@layer base {
+	body {
+		@apply antialiased leading-none font-sans bg-background text-foreground;
+	}
+}

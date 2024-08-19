@@ -1,0 +1,27 @@
+{
+	"name": "starter",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"upgrade": "pnpm update --interactive --latest"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.2.4",
+		"@sveltejs/kit": "^2.5.22",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.6",
+		"svelte": "5.0.0-next.224",
+		"tailwindcss": "4.0.0-alpha.19",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@tailwindcss/vite": "4.0.0-alpha.19"
+	}
+}
